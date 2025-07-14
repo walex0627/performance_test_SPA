@@ -1,50 +1,60 @@
 {
-    "users": [
-        {
-            "id": "admin-123",
-            "username": "admin",
-            "password": "adminpassword",
-            "role": "admin"
-        },
-        {
-            "id": "visitor-456",
-            "username": "visitante1",
-            "password": "passvisitor",
-            "role": "visitor"
-        }
-    ],
-    "events": [
-        {
-            "id": "event-001",
-            "name": "Conferencia de Desarrollo Web",
-            "description": "Una conferencia sobre las últimas tendencias en desarrollo frontend y backend.",
-            "date": "2025-08-15",
-            "time": "09:00",
-            "location": "Centro de Convenciones",
-            "capacity": 100,
-            "registeredUsers": []
-        },
-        {
-            "id": "event-002",
-            "name": "Taller de React y Vue",
-            "description": "Sesión práctica sobre los frameworks más populares de JavaScript.",
-            "date": "2025-09-01",
-            "time": "14:00",
-            "location": "Sala de Cursos 3",
-            "capacity": 30,
-            "registeredUsers": []
-        },
-        {
-            "id": "event-003",
-            "name": "Webinar de Ciberseguridad",
-            "description": "Charla en línea sobre cómo proteger tus aplicaciones.",
-            "date": "2025-09-10",
-            "time": "18:00",
-            "location": "Online",
-            "capacity": 500,
-            "registeredUsers": [
-                "visitor-456"
-            ]
-        }
-    ]
+  "users": [
+    {
+      "id": "admin123",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "visitor-456",
+      "username": "user123",
+      "password": "user123",
+      "role": "user"
+    }
+  ],
+  "events": [
+    {
+      "id": "event-001",
+      "name": "Conferencia de Desarrollo Web",
+      "description": "Una conferencia sobre las últimas tendencias en desarrollo frontend y backend.",
+      "date": "2025-08-15",
+      "time": "09:00",
+      "location": "Centro de Convenciones",
+      "capacity": 1000,
+      "registeredUsers": []
+    },
+    {
+      "id": "event-002",
+      "name": "Taller de React y Vue",
+      "description": "Sesión práctica sobre los frameworks más populares de JavaScript.",
+      "date": "2025-09-01",
+      "time": "14:00",
+      "location": "Sala de Cursos 3",
+      "capacity": 30,
+      "registeredUsers": []
+    },
+    {
+      "id": "event-003",
+      "name": "Webinar de Ciberseguridad",
+      "description": "Charla en línea sobre cómo proteger tus aplicaciones.",
+      "date": "2025-09-10",
+      "time": "18:00",
+      "location": "Online",
+      "capacity": 500,
+      "registeredUsers": [
+        "visitor-456"
+      ]
+    },
+    {
+      "id": "9edb",
+      "name": "clase",
+      "description": "tutorias de programacion",
+      "date": "2025-07-16",
+      "time": "10:19",
+      "location": "cra 26$76b-47",
+      "capacity": 8,
+      "registeredUsers": []
+    }
+  ]
 }
