@@ -87,7 +87,7 @@ export async function register() {
             });
 
             if (!post.ok) {
-                throw new new Error('Error creating user: ' + await post.text()); // Más detalles del error
+                throw new new Error('Error creating user: ' + await post.text()); 
             }
             alert(`${username} was created successfully.`);
             form.reset();
