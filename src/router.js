@@ -72,7 +72,8 @@ export async function renderRoute() {
 
         // Specific logic for the register page
         if (path === "/register") {
-            document.getElementById("navbar").hidden = true; 
+            document.getElementById("navbar").hidden = true;
+            register()
         }
 
         // Logout button logic (common for authenticated pages)

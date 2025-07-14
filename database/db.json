@@ -11,6 +11,14 @@
       "username": "user123",
       "password": "user123",
       "role": "user"
+    },
+    {
+      "id": "3d48",
+      "name": "alex",
+      "lastname": "2",
+      "username": "alex2",
+      "password": "alex2",
+      "role": "user"
     }
   ],
   "events": [
